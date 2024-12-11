@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <script>
+        function getInput() {
+            let input = prompt("Enter 10 digits only");
+            alert(input.length === 10 && !isNaN(input) ? "Valid input: " + input : " Enter 10 digits only");
+        }
+    </script>
+</head>
+<body>
+<h2> Enter 10 digit <h2>
+    <button onclick="getInput()">Enter 10 Digits</button>
+</body>
+</html>
